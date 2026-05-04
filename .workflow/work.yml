@@ -21,7 +21,7 @@ stages:
         displayName: punch
         pythonVersion: '3.9'
         commands:
-          - pip install requests -i https://pypi.tuna.tsinghua.edu.cn/simple
+          - pip install requests beautifulsoup4 -i https://pypi.tuna.tsinghua.edu.cn/simple
           - python ./luogu-auto-punch.py ${COOKIE}
         caches: []
         notify: []
